@@ -100,7 +100,6 @@ modules.order
 #
 # pacman files (make pacman-pkg)
 #
-/PKGBUILD
 /pacman/
 
 #
@@ -184,3 +183,10 @@ sphinx_*/
 
 # Rust analyzer configuration
 /rust-project.json
+
+# radxa q6a
+error.log
+/arm64-scripts-bin/
+linux-radxa-q6a-prebuilts/
+radxa-q6a-prebuilts*
+pkg/
