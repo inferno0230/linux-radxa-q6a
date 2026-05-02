@@ -176,6 +176,16 @@
 		};
 	};
 
+	gpio-keys {
+		compatible = "gpio-keys";
+
+		key-reset {
+			label = "RESET";
+			gpios = <&tlmm 82 GPIO_ACTIVE_LOW>;
+			linux,code = <KEY_RESTART>;
+		};
+	};
+
 	leds {
 		compatible = "gpio-leds";
 
